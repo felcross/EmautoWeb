@@ -36,7 +36,7 @@ if(!loading && user?.email) {
 } else if(loading) {
     return renderLoading()
 } else { 
-    route.push('/authentication')
+    route.push('/Authentic')
     return null }
 
 }

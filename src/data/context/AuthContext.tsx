@@ -107,7 +107,7 @@ export const AuthProvider = (props:any)=>{
                 setLoading(true) 
             await Firebase.auth().signOut
             await configSession(null)
-            Route.push('/authentication')
+            Route.push('/Authentic')
 
             } finally {
                 setLoading(false) 
