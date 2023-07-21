@@ -5,7 +5,7 @@ import useAuth from '@/data/hook/useAuth'
 import Image from 'next/image'
 import { useState } from 'react'
 
-export default function authentication() {
+export default function Authentic() {
 
   const {cadastrar,login,loginGoogle} = useAuth()
 
